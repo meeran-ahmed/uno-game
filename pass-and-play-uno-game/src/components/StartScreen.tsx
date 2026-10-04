@@ -229,8 +229,12 @@ export function StartScreen({
             </button>
           )}
         </Panel>
-        <p className="pb-6 text-center text-[10px] tracking-widest text-white/20 uppercase">
+        <p className="pb-2 text-center text-[10px] tracking-widest text-white/20 uppercase">
           keyboard: ← → pick · enter play · d draw · u uno · esc pause
+        </p>
+        <p className="pb-6 text-center text-xs text-white/40">
+          <a href="https://vyonex.co.in" target="_blank" rel="noopener noreferrer" className="font-semibold text-rose-300/80 hover:text-rose-300 transition-colors">vyonex</a> first game<br/>
+          created by <a href="https://meeran-portfolio.antideploy.app/" target="_blank" rel="noopener noreferrer" className="font-semibold text-emerald-300/80 hover:text-emerald-300 transition-colors">meeran ahmed</a>
         </p>
       </div>
     </div>
